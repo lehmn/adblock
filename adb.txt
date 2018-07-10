@@ -206,12 +206,6 @@ plusone.js|$third-party
 ~mts.ru##.social
 ##.socials
 ##.addthis_toolbox
-
-[Subscription]
-url=~user~563739
-title=Anti-Adblock
-
-[Subscription filters]
 /anti_ab.
 /adb*_detector.
 /blockBlock*$script
