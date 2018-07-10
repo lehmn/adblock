@@ -1,3 +1,7 @@
+[Adblock Plus 2.0]
+! Title: ADB GIT
+! Expires: 100 days (update frequency)
+
 ///rs[0-9]?\.mail\.ru/[bd]/
 ||radar.imgsmail.ru^
 /images.rambler.ru/(n|upl)//
