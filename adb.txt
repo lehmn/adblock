@@ -1,29 +1,3 @@
-# Adblock Plus preferences
-version=4
-[Filter]
-text=||livetex.ru/$third-party
-disabled=true
-[Filter]
-text=||paypalobjects.com/js/external/*$domain=~$paypal.com
-disabled=true
-[Filter]
-text=//ad[sv]?//
-disabled=true
-[Filter]
-text=/widgets.js$third-party
-disabled=true
-[Filter]
-text=||ulogin.ru/js/*$script,third-party
-disabled=true
-[Filter]
-text=##.socials
-disabled=true
-
-[Subscription]
-url=~user~871919
-title=custom
-
-[Subscription filters]
 ///rs[0-9]?\.mail\.ru/[bd]/
 ||radar.imgsmail.ru^
 /images.rambler.ru/(n|upl)//
@@ -63,12 +37,6 @@ title=custom
 ||image.subscribe.ru/advert/
 ||livetex.ru/$third-party
 ||paypalobjects.com/js/external/*$domain=~$paypal.com
-
-[Subscription]
-url=~user~633515
-title=counters
-
-[Subscription filters]
 //count(er)?\[\?\.]/$third-party
 /counters?
 ||google-analytics.com/*.js$third-party,script
@@ -100,13 +68,6 @@ counter.rambler.ru/
 ||amung.us^$third-party
 ||montblanc.rambler.ru^$script
 ||top-fwz1.mail.ru^
-###counters
-
-[Subscription]
-url=~user~838593
-title=uni-banners
-
-[Subscription filters]
 /\D(?:3\[123]\[-_x]88|88\[-_x]3\[123])\D/$domain=~money.yandex.ru
 /\[.-/]1\[26]0\[-x_]600?\[.-/]/
 /\[.-/]468\[-x_]\[68]0\[.-/]/
@@ -145,12 +106,6 @@ title=uni-banners
 ||*pop*/$third-party,popup
 *teaser*/*$third-party,script
 ||tizer$third-party
-
-[Subscription]
-url=~user~186376
-title=banners
-
-[Subscription filters]
 ||yabs.yandex.ru/resource/
 ||adriver.ru/$third-party
 ||googleadservices.com^$third-party
@@ -188,13 +143,6 @@ title=banners
 ||intellitxt.com^$script,third-party
 ||content.relax.ru^$third-party
 ||target.smi2.net/client/target.js
-###sape_okn
-
-[Subscription]
-url=~user~791887
-title=anti-social
-
-[Subscription filters]
 //icon?\[_-](rss|facebook|twitter|gplus|vk)\[-.]/
 /icons/facebook$domain=~facebook.com
 /addthis_widget.
