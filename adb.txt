@@ -1,7 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ADB GIT
-! Expires: 100 days (update frequency)
+! Expires: 2 days (update frequency)
 
+vk.com#div##ads_left
 ///rs[0-9]?\.mail\.ru/[bd]/
 ||radar.imgsmail.ru^
 /images.rambler.ru/(n|upl)//
@@ -214,3 +215,115 @@ plusone.js|$third-party
 /adb*_detector.
 /blockBlock*$script
 /*adblock$script,domain=~adblockplus.org
+! youtube
+youtube.com###movie_player > .ytp-cards-teaser
+/youtube.php|$third-party,script
+/AdotubeYouTubePlayer.
+youtube.com##.annotation.iv-promo
+youtube.com##.video-annotations .annotation-type-text
+||am.cdnmob.org/_/img/youtube-bg$image
+||youtube.com/*autoplay$domain=newdeaf-online.net
+||youtube.com/embed/$domain=4put.ru|mister-robot.tv|play.shikimori.org|smotret-anime.ru
+||youtube.com/embed/*?autoplay=1$domain=kino-mir.net
+||youtube.com^$domain=kinotochka.club|kinotochka.pro
+||youtube.com^*modestbranding$subdocument,domain=moevideo.net|playreplay.me|playreplay.net|playvideolink.com|thesame.tv|tjournal.ru|videochart.net
+@@https://www.youtube.com^$popup,domain=newdeaf-online.net|yangteacher.ru
+_reklama_$domain=~youtube.com
+##.youtubeSuperLeaderBoardAdHolder
+##.youtubeSuperLeaderOverallAdArea
+youtube.com#@#.overlay-ads
+||2mdn.net^$object-subrequest,third-party,domain=youtube.com
+||doubleclick.net^$third-party,domain=youtube-nocookie.com|youtube.com
+||phobos.apple.com^$image,domain=youtube.com
+||topspin.net/secure/media/$image,domain=youtube.com
+||espn.vad.go.com^$domain=youtube.com
+||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
+||proxy-youtube.net/mih_
+||proxy-youtube.net/myiphide_
+||youtube.com/get_midroll_
+||youtube.com/pagead/
+||ytimg.com^*/new_watch_background.jpg?$domain=youtube.com
+||ytimg.com^*/new_watch_background_*.jpg?$domain=youtube.com
+||ytimg.com^*_banner$domain=youtube.com
+@@||youtube.com/iframe_api$third-party
+@@||youtube.com/player_api$third-party
+@@||youtube.com/embed/$domain=xclusivejams2.com
+youtube.com###feed-pyv-container
+youtube.com###feedmodule-PRO
+youtube.com###homepage-chrome-side-promo
+youtube.com###pla-shelf
+youtube.com###premium-yva
+youtube.com###search-pva
+youtube.com###shelf-pyv-container
+youtube.com###video-masthead
+youtube.com###watch-branded-actions
+youtube.com###watch-buy-urls
+youtube.com###watch-channel-brand-div
+getlinkyoutube.com##.bansidebar
+getlinkyoutube.com##.bansidebarbottom-frame
+getlinkyoutube.com##.bantop
+youtube.com##.carousel-offer-url-container
+youtube.com##.list-view[style="margin: 7px 0pt;"]
+youtube.com##.promoted-videos
+youtube.com##.searchView.list-view
+youtube.com##.watch-extra-info-column
+youtube.com##.watch-extra-info-right
+youtube.com##.ytd-search-pyv-renderer
+youtube.com##YTM-PROMOTED-VIDEO-RENDERER
+youtube.com##a[href^="http://www.youtube.com/cthru?"]
+youtube.com##a[href^="https://www.youtube.com/cthru?"]
+m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
+youtubedoubler.com##div[style="padding-left:2px; padding-top:9px; padding-bottom:8px; margin-top:0px; background-color:lightgrey;text-align:center;margin-top:18px;"]
+@@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
+@@||youtube.com/yt/advertise/medias/images/$image
+@@||youtube.com/yt/css/www-advertise.css
+@@||youtube.com^*_adsense_$xmlhttprequest
+@@||ytimg.com/yts/img/*/display-ads$image,domain=youtube.com
+@@||ytimg.com/yts/img/channels/*_banner-*.jpg$domain=youtube.com
+@@||ytimg.com/yts/img/channels/*_banner-*.png$domain=youtube.com
+@@||ytimg.com^*/channels4_banner.jpg?$domain=youtube.com
+@@||ytimg.com^*/channels4_banner_hd.jpg?$domain=youtube.com
+@@||getlinkyoutube.com^*/adframe.js
+! Youtube adv
+@@||google.com/ads/js/$script,domain=incentiveswidget.appspot.com
+@@||youtube.com/yt/css/*-advertise.css$domain=incentiveswidget.appspot.com
+@@||youtube.com/yt/js/www-advertise.min.js$domain=youtube.com
+! Facebook
+@@||www.facebook.com/ads/$generichide
+@@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=www.facebook.com
+! Google
+@@||accounts.google.com/adwords/$domain=accounts.google.com
+@@||accounts.google.com^$document,subdocument,domain=adwords.google.com
+@@||ads.google.$document,domain=ads.google.ac|ads.google.ad|ads.google.ae|ads.google.al|ads.google.am|ads.google.as|ads.google.at|ads.google.az|ads.google.ba|ads.google.be|ads.google.bf|ads.google.bg|ads.google.bi|ads.google.bj|ads.google.bs|ads.google.bt|ads.google.by|ads.google.ca|ads.google.cat|ads.google.cd|ads.google.cf|ads.google.cg|ads.google.ch|ads.google.ci|ads.google.cl|ads.google.cm|ads.google.co.ao|ads.google.co.bw|ads.google.co.ck|ads.google.co.cr|ads.google.co.id|ads.google.co.il|ads.google.co.in|ads.google.co.jp|ads.google.co.ke|ads.google.co.kr|ads.google.co.ls|ads.google.co.ma|ads.google.co.mz|ads.google.co.nz|ads.google.co.th|ads.google.co.tz|ads.google.co.ug|ads.google.co.uk|ads.google.co.uz|ads.google.co.ve|ads.google.co.vi|ads.google.co.za|ads.google.co.zm|ads.google.co.zw|ads.google.com|ads.google.com.af|ads.google.com.ag|ads.google.com.ai|ads.google.com.ar|ads.google.com.au|ads.google.com.bd|ads.google.com.bh|ads.google.com.bn|ads.google.com.bo|ads.google.com.br|ads.google.com.by|ads.google.com.bz|ads.google.com.cn|ads.google.com.co|ads.google.com.cu|ads.google.com.cy|ads.google.com.do|ads.google.com.ec|ads.google.com.eg|ads.google.com.et|ads.google.com.fj|ads.google.com.gh|ads.google.com.gi|ads.google.com.gt|ads.google.com.hk|ads.google.com.jm|ads.google.com.jo|ads.google.com.kh|ads.google.com.kw|ads.google.com.lb|ads.google.com.ly|ads.google.com.mm|ads.google.com.mt|ads.google.com.mx|ads.google.com.my|ads.google.com.na|ads.google.com.ng|ads.google.com.ni|ads.google.com.np|ads.google.com.om|ads.google.com.pa|ads.google.com.pe|ads.google.com.pg|ads.google.com.ph|ads.google.com.pk|ads.google.com.pr|ads.google.com.py|ads.google.com.qa|ads.google.com.ru|ads.google.com.sa|ads.google.com.sb|ads.google.com.sg|ads.google.com.sl|ads.google.com.sv|ads.google.com.tj|ads.google.com.tn|ads.google.com.tr|ads.google.com.tw|ads.google.com.ua|ads.google.com.uy|ads.google.com.vc|ads.google.com.ve|ads.google.com.vn|ads.google.cv|ads.google.cz|ads.google.de|ads.google.dj|ads.google.dk|ads.google.dm|ads.google.dz|ads.google.ee|ads.google.es|ads.google.fi|ads.google.fm|ads.google.fr|ads.google.ga|ads.google.ge|ads.google.gg|ads.google.gl|ads.google.gm|ads.google.gp|ads.google.gr|ads.google.gy|ads.google.hk|ads.google.hn|ads.google.hr|ads.google.ht|ads.google.hu|ads.google.ie|ads.google.im|ads.google.iq|ads.google.is|ads.google.it|ads.google.it.ao|ads.google.je|ads.google.jo|ads.google.jp|ads.google.kg|ads.google.ki|ads.google.kz|ads.google.la|ads.google.li|ads.google.lk|ads.google.lt|ads.google.lu|ads.google.lv|ads.google.md|ads.google.me|ads.google.mg|ads.google.mk|ads.google.ml|ads.google.mn|ads.google.ms|ads.google.mu|ads.google.mv|ads.google.mw|ads.google.ne|ads.google.ne.jp|ads.google.ng|ads.google.nl|ads.google.no|ads.google.nr|ads.google.nu|ads.google.pl|ads.google.pn|ads.google.ps|ads.google.pt|ads.google.ro|ads.google.rs|ads.google.ru|ads.google.rw|ads.google.sc|ads.google.se|ads.google.sh|ads.google.si|ads.google.sk|ads.google.sm|ads.google.sn|ads.google.so|ads.google.sr|ads.google.st|ads.google.td|ads.google.tg|ads.google.tl|ads.google.tm|ads.google.tn|ads.google.to|ads.google.tt|ads.google.us|ads.google.vg|ads.google.vu|ads.google.ws
+@@||ads.google.com/jsapi$script,domain=www.google.com
+@@||ads.google.com^$domain=analytics.google.com
+@@||adwords.google.com^$domain=adwords.google.com
+@@||apps.admob.com/admob/*.adsense.$script,domain=apps.admob.com
+@@||bpui0.google.com^$document,subdocument,domain=adwords.google.com
+@@||google.*/ads/$generichide,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||google.*/adsense_$~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||google.*/adwords/$~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||google.*/services/$generichide,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||google.com/payments/*/adwords.$document,subdocument
+@@||google.com/tools/feedback/open.js?*^url=https://adwords.google.com/$script,domain=adwords.google.com
+@@||gstatic.com/accounts/services/adwords/$image,domain=accounts.google.com
+@@||gstatic.com/images/icons/product/adsense-$image,domain=accounts.google.com
+@@||gstatic.com/images/icons/product/adsense_$image,domain=accounts.google.com
+@@||gstatic.com^*/adwords/$domain=support.google.com
+@@||support.google.com/adsense/$~third-party
+@@||www.google.*/adometry.$~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||www.google.*/adometry/$~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||www.google.*/ads/$~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||www.google.*/adsense/$~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.co.za|google.com|google.com.au|google.com.eg|google.de|google.es|google.ie|google.it
+@@||www.google.com/adwords/$generichide
+@@||www.google.com/analytics/web/$xmlhttprequest,domain=www.google.com
+@@||www.google.com/doubleclick/$domain=www.google.com
+@@||www.google.com/doubleclick/images/favicon.ico
+@@||www.google.com/images/icons/*/adsense_$image,domain=www.google.com
+@@||www.google.com/images/icons/feature/adsense_$image
+@@||www.google.com/images/icons/product/adsense-$image
+accounts.google.com#@#.adwords
+www.google.com#@##videoads
+! Elist popup white list
+@@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
+@@||youtube.com/ads/preferences/$popup
