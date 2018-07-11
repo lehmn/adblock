@@ -284,6 +284,7 @@ youtubedoubler.com##div[style="padding-left:2px; padding-top:9px; padding-bottom
 @@||ytimg.com^*/channels4_banner.jpg?$domain=youtube.com
 @@||ytimg.com^*/channels4_banner_hd.jpg?$domain=youtube.com
 @@||getlinkyoutube.com^*/adframe.js
+@@||img.youtube.com/vi/*/sddefault.jpg$domain=pornhub.com
 ! Youtube adv
 @@||google.com/ads/js/$script,domain=incentiveswidget.appspot.com
 @@||youtube.com/yt/css/*-advertise.css$domain=incentiveswidget.appspot.com
