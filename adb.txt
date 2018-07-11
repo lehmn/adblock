@@ -2,7 +2,9 @@
 ! Title: ADB GIT
 ! Expires: 2 days (update frequency)
 
-vk.com#div##ads_left
+vk.com#ads_left
+vk.com##div#ads_left
+vk.com##div#left_blocks
 ///rs[0-9]?\.mail\.ru/[bd]/
 ||radar.imgsmail.ru^
 /images.rambler.ru/(n|upl)//
