@@ -11,6 +11,7 @@ vk.com##.right_list
 vk.com##.flat_button.secondary.ui_load_more_btn._ui_load_more_btn.with_arrow.smaller
 vk.com##.ui_toggler_wrap.hot
 vk.com##div#feed_filters
+ad.mail.ru/*
 
 ///rs[0-9]?\.mail\.ru/[bd]/
 ||radar.imgsmail.ru^
@@ -224,7 +225,9 @@ plusone.js|$third-party
 /adb*_detector.
 /blockBlock*$script
 /*adblock$script,domain=~adblockplus.org
-! youtube
+
+! YOUTUBE
+
 youtube.com###movie_player > .ytp-cards-teaser
 /youtube.php|$third-party,script
 /AdotubeYouTubePlayer.
@@ -334,6 +337,8 @@ youtubedoubler.com##div[style="padding-left:2px; padding-top:9px; padding-bottom
 @@||www.google.com/images/icons/product/adsense-$image
 accounts.google.com#@#.adwords
 www.google.com#@##videoads
+
 ! Elist popup white list
+
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||youtube.com/ads/preferences/$popup
