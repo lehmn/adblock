@@ -3,6 +3,7 @@
 ! Expires: 2 days (update frequency)
 
 ! VK
+
 vk.com#ads_left
 vk.com##div#ads_left
 vk.com##div#left_blocks
@@ -12,6 +13,22 @@ vk.com##.flat_button.secondary.ui_load_more_btn._ui_load_more_btn.with_arrow.sma
 vk.com##.ui_toggler_wrap.hot
 vk.com##div#feed_filters
 ad.mail.ru/*
+
+! MAIL
+
+mail.ru##b-slot-left-direct
+mail.ru##b-rb
+*.googletagmanager.com
+stat.radar.ingsmail.ru/*
+bos.icq.net/*
+https://e.mail.ru/api-proxy/mimic/v1/count*
+https://e.mail.ru/api-proxy/mimic/v1/page*
+*.love.mail.ru/*
+counter.yadro.ru/*
+https://e.mail.ru/api/v1/utils/xray/*
+icqapi*.mail.ru/*
+*rs.mail.ru/*
+jiml.mail.ru/*
 
 ///rs[0-9]?\.mail\.ru/[bd]/
 ||radar.imgsmail.ru^
