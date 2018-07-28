@@ -314,7 +314,9 @@ youtubedoubler.com##div[style="padding-left:2px; padding-top:9px; padding-bottom
 @@||ytimg.com^*/channels4_banner_hd.jpg?$domain=youtube.com
 @@||getlinkyoutube.com^*/adframe.js
 @@||img.youtube.com/vi/*/sddefault.jpg$domain=pornhub.com
+
 ! Youtube adv
+
 @@||google.com/ads/js/$script,domain=incentiveswidget.appspot.com
 @@||youtube.com/yt/css/*-advertise.css$domain=incentiveswidget.appspot.com
 @@||youtube.com/yt/js/www-advertise.min.js$domain=youtube.com
@@ -387,6 +389,15 @@ doubleclick.net
 www.youtube-nocookie.com
 youtube-nocookie.com
 s0.2mdn.net
+youtube.com/api/stats/ads?*
+youtube.com/ptracking?*
+pagead2.googlesyndication.com/bg/*
+pagead2.googlesyndication.com/*
+googlesyndication.com/*
+s.ytimg.com/yts/jsbin/www-pagead-*
+youtube.com/api/stats/qoe?*
+youtube.com/yts/jsbin/*/remote.js|
+youtube.com#@#.overlay-ads
 
 ! Elist popup white list
 
