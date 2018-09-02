@@ -13,6 +13,7 @@ vk.com##.flat_button.secondary.ui_load_more_btn._ui_load_more_btn.with_arrow.sma
 vk.com##.ui_toggler_wrap.hot
 vk.com##div#feed_filters
 ad.mail.ru/*
+##div._ads_promoted_post_data_w
 
 ! MAIL
 
