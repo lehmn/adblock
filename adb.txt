@@ -404,3 +404,13 @@ youtube.com#@#.overlay-ads
 
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||youtube.com/ads/preferences/$popup
+
+! experiment
+
+yastatic.net/awaps-ad-sdk-js-bundles/*
+vk.com##._ads_block_data_w
+youtube.com###masthead-ad
+p.analytic.press/*
+r.analytic.press/*
+p.analytic.host/*
+r.analytic.host/*
