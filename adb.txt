@@ -414,3 +414,7 @@ p.analytic.press/*
 r.analytic.press/*
 p.analytic.host/*
 r.analytic.host/*
+
+! Tanki
+
+tankionline.com/js/chromeDetector.js
